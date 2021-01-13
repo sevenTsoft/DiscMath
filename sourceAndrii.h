@@ -4,7 +4,7 @@
 
 #ifndef DISCMATH_SOURCEANDRII_H
 #define DISCMATH_SOURCEANDRII_H
-//#include "sourceAndrii.c"
+#include "sourceAndrii.c"
 
 int prefixNotation(char* ptr);
 
