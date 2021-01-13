@@ -40,20 +40,21 @@ int postfixNotation(char *ptr)
 void cartesianProduct()
 {
     int arr1[100] = {'\0'}, arr2[100] = {'\0'}, num1, num2;
-    printf("Please input how many integers you want to add in first array: "); scanf("%d", &num1);
+    printf("\nPlease input how many integers you want to add in first array: "); scanf("%d", &num1);
+    printf("\nInput %d integers: ", num1);
     for(int i = 0; i < num1; i++)
         scanf("%d", &arr1[i]);
 
-    printf("Please input how many integers you want to add in second array: "); scanf("%d", &num2);
+    printf("\nPlease input how many integers you want to add in second array: "); scanf("%d", &num2);
+    printf("\nInput %d integers: ", num1);
     for(int i = 0; i < num2; i++)
         scanf("%d", &arr2[i]);
 
-    //puts("Your Cartesian Product is: {");
-    printf("Your Cartesian Product is: { ");
+    printf("\nYour Cartesian Product is: { ");
     for (int i = 0; i < num1; i++) {
         for (int j = 0; j < num2; j++) {
             printf("{%d, %d} ", arr1[i], arr2[j]);
         }
     }
-    printf("}");
+    printf("};\n");
 }
