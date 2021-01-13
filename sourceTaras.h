@@ -3,9 +3,9 @@
 //
 
 
-#ifndef DISCMATH_SOURCENATHERION_H
-#define DISCMATH_SOURCENATHERION_H
-//#include "sourceTaras.c"
+#ifndef DISCMATH_SOURCETARAS
+#define DISCMATH_SOURCETARAS
+#include "sourceTaras.c"
 
 
 void computerRepresentation();
